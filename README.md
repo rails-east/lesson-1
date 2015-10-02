@@ -70,8 +70,11 @@ app/views/pages/home.html.erb
 ```html
 <h1>Welcome to my app!<h1> <p>Sign up here<p>
 ```
-
-$ git status $ git add . $ git commit -am “create home page”
+```
+$ git status
+$ git add .
+$ git commit -am “create home page”
+```
 
 #### Setup the root path using Routes
 
