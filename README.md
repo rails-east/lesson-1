@@ -11,10 +11,6 @@ Create a new Rails app
 $ rails new pinteresting
 $ cd pinteresting
 ```
-Run the Rails server
-```
-$ rails server
-```
 ## Git
 #### Setup Git on a new computer
 ```
@@ -49,6 +45,7 @@ You will then be asked to create a password for this key
 - link repo using command line
 
 ## Create your homepage
+Run the Rails server
 ```
 $ rails server
 ```
