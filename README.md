@@ -77,4 +77,11 @@ $ git status $ git add . $ git commit -am “create home page”
 
 config/routes.rb
 
-replace:```rubyget "pages/home"```with:```rubyroot "pages#home"```
+replace:
+```ruby
+get "pages/home"
+```
+with:
+```ruby
+root "pages#home"
+```
