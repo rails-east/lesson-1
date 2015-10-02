@@ -18,13 +18,19 @@ $ rails server
 ## Git
 
 #### Setup Git on a new computer
-
-$ git config --global user.name “Michael Scott” $ git config --global user.name $ git config --global user.email “mscott@dundermifflin.com" $ git config --global user.email
-
+```
+$ git config --global user.name “Michael Scott”
+$ git config --global user.name
+$ git config --global user.email “mscott@dundermifflin.com"
+$ git config --global user.email
+```
 #### Setup Git for a specific app
-
-$ git init $ git status $ git add . $ git commit -am “first commit"
-
+```
+$ git init
+$ git status
+$ git add .
+$ git commit -am “first commit"
+```
 #### Edit your .gitignore file, add the following (Mac)
 
 .DS\_Store
