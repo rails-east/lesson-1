@@ -16,7 +16,6 @@ Run the Rails server
 $ rails server
 ```
 ## Git
-
 #### Setup Git on a new computer
 ```
 $ git config --global user.name “Michael Scott”
@@ -31,20 +30,16 @@ $ git status
 $ git add .
 $ git commit -am “first commit"
 ```
-#### Edit your .gitignore file, add the following (Mac)
-
-.DS\_Store
-
 ## GitHub
-
 #### Generate SSH keys
 
 The SSH key verifies your identity on your computer (that you are who you say who you are) when you upload. Follow the instructions on GitHub: https://help.github.com/articles/generating-ssh-keys
 
 Install SSH key using command line:
-
-$ ssh-keygen -t rsa -C "your\_email@example.com" $ ssh-add id\_rsa
-
+```
+$ ssh-keygen -t rsa -C "your\_email@example.com"
+$ ssh-add id\_rsa
+```
 You will then be asked to create a password for this key
 
 #### Follow instructions on GitHub website
@@ -54,13 +49,16 @@ You will then be asked to create a password for this key
 - link repo using command line
 
 ## Create your homepage
-
-$ rails server go to localhost:3000 in a web browser open up a new terminal tab (cmd+t on Mac)
+```
+$ rails server
+```
+- go to localhost:3000 in a web browser
+- open up a new terminal tab (cmd+t on Mac)
 
 #### Create a new page
-
+```
 $ rails generate controller pages home
-
+```
 #### Add some text to this new page
 
 app/views/pages/home.html.erb
