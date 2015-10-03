@@ -8,8 +8,8 @@ $ rails -v
 ```
 Create a new Rails app
 ```
-$ rails new pinteresting
-$ cd pinteresting
+$ rails new myapp
+$ cd myapp
 ```
 ## Git
 #### Setup Git on a new computer
